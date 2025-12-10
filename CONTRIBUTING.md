@@ -3,75 +3,72 @@
 >"Within C++ is a smaller, simpler, safer language struggling to get out." 
 >-- <cite>Bjarne Stroustrup</cite>
 
-The C++ Core Guidelines are a collaborative effort led by Bjarne Stroustrup, much like the C++ language itself. They are the result of many 
-person-years of discussion and design across a number of organizations. Their design encourages general applicability and broad adoption but 
-they can be freely copied and modified to meet your organization's needs. 
+C++コアガイドラインは、C++言語そのものと同様に、ビャルネ・ストロストラップが主導する共同作業の成果である。これらは複数の組織にわたり、多くの
+人年を費やした議論と設計の結果として生まれた。その設計は汎用性と広範な採用を促すが、
+組織のニーズに合わせて自由に複製・修正することが可能である。
 
-We encourage contributions to the C++ Core Guidelines in a number of ways:
-- **Individual feedback** Are you a developer who is passionate about your code? Join the discussion in 
-[Issues](https://github.com/isocpp/CppCoreGuidelines/issues). We want to know which rules resonate with you and which don't. Were any rules
-inordinately difficult to apply? Does your compiler vendor's Guidelines Support Library (e.g., 
-[Microsoft's implementation of the GSL](https://github.com/microsoft/gsl)) suit your needs in adopting these guidelines?
-- **Organizational adoption** While the guidelines are designed to be broadly adoptable they are also intended to be modified to fit your
-organization's particular needs. We encourage your organization to fork this repo and create your own copy of these guidelines with changes 
-that reflect your needs. We suggest that you make it clear in the title of your guidelines that these are your organization's fork of the
-guidelines and that you provide a link back to the original set of [guidelines](https://github.com/isocpp/CppCoreGuidelines). And if any of
-your local changes are appropriate to pull back into the original guidelines, please open an 
-[Issue](https://github.com/isocpp/CppCoreGuidelines/issues) which can lead to a pull request.
-- **Maintain the Guidelines** The C++ Core Guidelines were created from a wealth of knowledge spread across a number of organizations
-worldwide. If you or your organization is passionate about helping to create the guidelines, consider becoming an editor or maintainer. If
-you're a C++ expert who is serious about participating, please 
-[email coreguidelines@isocpp.org](mailto:coreguidelines@isocpp.org?subject=Maintain%20the%20C++%20Code%20Guidelines).
+C++コアガイドラインへの貢献を以下の方法で推奨します：
+- **個人からのフィードバック** コードに情熱を注ぐ開発者の方へ。
+[イシュー](https://github.com/isocpp/CppCoreGuidelines/issues)での議論にご参加ください。どのルールが共感を得られ、どのルールがそうでないかをお聞かせください。適用が
+過度に困難なルールはありましたか？コンパイラベンダーのガイドラインサポートライブラリ（例：
+[MicrosoftのGSL実装](https://github.com/microsoft/gsl)）は、これらのガイドライン採用においてニーズを満たしていますか？
+- **組織での採用** ガイドラインは広く採用可能に設計されていますが、
+組織固有のニーズに合わせて修正することも想定されています。組織では、このリポジトリをフォークし、
+ご自身のニーズを反映した変更を加えたガイドラインの独自コピーを作成することを推奨します。ガイドラインのタイトルには、これが組織による
+ガイドラインのフォークであることを明記し、元の[ガイドライン](https://github.com/isocpp/CppCoreGuidelines)へのリンクを提供することをお勧めします。また、
+ローカルでの変更がオリジナルガイドラインへの反映に適している場合は、プルリクエストにつながる可能性のある
+[Issue](https://github.com/isocpp/CppCoreGuidelines/issues)を開いてください。
+- **ガイドラインの維持** C++ Core Guidelinesは、世界中の数多くの組織に分散する豊富な知識から作成されました
+。ガイドライン作成への貢献に情熱をお持ちの方や組織は、編集者またはメンテナとなることをご検討ください。
+真剣に参加する意思のあるC++エキスパートの方は、
+[email coreguidelines@isocpp.org](mailto:coreguidelines@isocpp.org?subject=Maintain%20the%20C++%20Code%20Guidelines) までご連絡ください。
  
-## Contributor License Agreement
-By contributing content to the C++ Core Guidelines (i.e., submitting a pull request for inclusion in this repository) you agree with the 
-[Standard C++ Foundation](https://isocpp.org/about) [Terms of Use](https://isocpp.org/home/terms-of-use), especially all of the terms specified
-regarding Copyright and Patents.   
-- You warrant that your material is original, or you have the right to contribute it.
-- With respect to the material that you own, you grant a worldwide, non-exclusive, irrevocable, transferable, and royalty-free license to your contributed 
-material to Standard C++ Foundation to display, reproduce, perform, distribute, and create derivative works of that material for commercial or 
-non-commercial use. With respect to any other material you contribute, such material must be under a license sufficient to allow Standard C++ Foundation
-to display, reproduce, perform, distribute, and create derivative works of that material for commercial or non-commercial use.
-- You agree that, if your contributed material is subsequently reflected in the ISO/IEC C++ standard in any form, it will be subject to all ISO/IEC JTC 
-1 policies including [copyrights](http://www.iso.org/iso/home/policies.htm), 
-[patents](http://www.iso.org/iso/home/standards_development/governance_of_technical_work/patents.htm), and 
-[procedures](http://www.itscj.ipsj.or.jp/sc29/29w7proc.htm); please direct any questions about these policies to the 
-[ISO Central Secretariat](http://www.iso.org/iso/home/about.htm).
+## 貢献者ライセンス契約
+C++ Core Guidelinesへのコンテンツ提供（本リポジトリへのプルリクエストの提出）により、あなたは
+[Standard C++ Foundation](https://isocpp.org/about)の[利用規約](https://isocpp.org/home/terms-of-use)、特に著作権および特許に関する
+すべての条項に同意するものとします。
+- 貴殿は、提供した素材がオリジナルであること、または提供権限を有することを保証します。
+- 貴殿が所有する素材について、Standard C++ Foundationに対し、提供された素材を商業目的または非商業目的で表示、複製、上演、頒布、および派生作品を作成するための、全世界的、非独占的、取消不能、譲渡可能、かつロイヤリティフリーのライセンスを付与します。
+- その他の提供資料については、Standard C++ Foundation
+が当該資料を商業的または非商業的利用のために表示、複製、実行、配布、および派生作品を作成することを許容する十分なライセンス下にある必要があります。
+- 寄稿した資料がその後いかなる形であれISO/IEC C++標準に反映された場合、当該資料はISO/IEC JTC 
+1の全方針（[著作権](http://www.iso.org/iso/home/policies.htm)、
+ 
+[特許](http://www.iso.org/iso/home/standards_development/governance_of_technical_work/patents.htm)、および
+[手続き](http://www.itscj.ipsj.or.jp/sc29/29w7proc.htm)を含むすべてのISO/IEC JTC 1ポリシーの対象となることに同意します。これらのポリシーに関するご質問は、
+[ISO中央事務局](http://www.iso.org/iso/home/about.htm)までお問い合わせください。
 
 
-## Pull requests
+## プルリクエスト
 
-We welcome pull requests for scoped changes to the guidelines--bug fixes in
-examples, clarifying ambiguous text, etc.  Significant changes should first be
-discussed in the [Issues](https://github.com/isocpp/CppCoreGuidelines/issues)
-and the Issue number must be included in the pull request.  For
-guideline-related changes, please specify the rule number in your Issue and/or
-Pull Request.
+ガイドラインの範囲内での変更（例：バグ修正、例文の修正、曖昧な表現の明確化など）については、プルリクエストを歓迎します。大幅な変更については、まず[イシュー](https://github.com/isocpp/CppCoreGuidelines/issues)
+で議論し、プルリクエストにイシュー番号を明記してください。
+ガイドライン関連の変更については、Issueおよび/または
+プルリクエスト内で該当ルールの番号を明記してください。
 
-Changes should be made in a child commit of a recent commit in the master
-branch.  If you are making many small changes, please create separate PRs to
-minimize merge issues.
+変更はマスターブランチの直近コミットの子コミットで行ってください。
+多数の小さな変更を行う場合は、マージ時の問題を最小限に抑えるため、個別のプルリクエストを作成してください。
 
-### Document Style Guidelines
+### 文書スタイルガイドライン
 
-Documents in this repository are written in an unspecific flavor of Markdown,
-which leaves some ambiguity for formatting text.  We ask that pull requests
-maintain the following style guidelines, though we are aware that the document
-may not already be consistent.
+このリポジトリの文書は特定形式のMarkdownで記述されており、
+テキストの書式設定に若干の曖昧さが残っています。文書全体が
+まだ統一されていない可能性があることは承知していますが、プルリクエストでは
+以下のスタイルガイドラインを維持してください。
 
-#### Indentation
+#### インデント
 
-Code and nested text should use multiples of 4 spaces of indentation, and no
-tab characters, like so:
+コードとネストされたテキストは、インデントに4スペースの倍数を使用し、
+タブ文字は使用しないでください。例：
 
     void func(const int x)
     {
         std::cout << x << '\n';
     }
 
-#### Code Blocks
+#### コードブロック
 
-Please use 4-space indentation to trigger code parsing, rather than [fenced code blocks](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) or any other style, like so:
+コード解析をトリガーするには、[フェンス付きコードブロック](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) やその他のスタイルではなく、4スペースのインデントを使用してください。例:
 
     This is some document text, with an example below:
 
@@ -80,19 +77,19 @@ Please use 4-space indentation to trigger code parsing, rather than [fenced code
             std::cout << "This is code.\n";
         }
 
-#### Document style decisions
+#### ドキュメントスタイルの決定事項
 
-We've discussed and made decisions on a number of document style. Please do not open PRs that revisit these stylistic points:
+複数のドキュメントスタイルについて議論し決定しました。以下のスタイルに関する点を再検討するプルリクエストは提出しないでください:
 
-- The CppCoreGuidelines.md file is a single GH-flavored Markdown file. It is not split into separate chapters.
-- We do not use syntax highlighting in the Core Guidelines. See PRs #33, #96, #328, and #779. If you want syntax highlighting you
-can either view the "pretty" version at http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines or do your own post-processing.
-- We're sticking with the ASCII character set. We do not use Unicode em-dashes, Unicode spaces, or pretty quotes. Lots of people edit this file with their various text editors. ASCII is simple and universally understood. 
+- CppCoreGuidelines.mdファイルは単一のGH形式Markdownファイルです。章ごとに分割しません。
+- コアガイドラインでは構文ハイライトを使用しません。PR #33、#96、#328、#779を参照してください。構文ハイライトが必要な場合は
+http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines で「見やすい」バージョンを閲覧するか、各自で後処理を行ってください。
+- ASCII文字セットに固執しています。Unicodeのエンダッシュ、Unicodeスペース、装飾引用符は使用しません。多くの人が様々なテキストエディタでこのファイルを編集します。ASCIIはシンプルで普遍的に理解されています。
 
-### Update dictionary
+### 辞書の更新
 
-Code samples in the guidelines are run through a spelling checker.  Be sure to add new class and variable names to [scripts/hunspell/isocpp.dic](https://github.com/isocpp/CppCoreGuidelines/blob/master/scripts/hunspell/isocpp.dic).
+ガイドライン内のコードサンプルはスペルチェッカーを通します。新しいクラス名や変数名は必ず[scripts/hunspell/isocpp.dic](https://github.com/isocpp/CppCoreGuidelines/blob/master/scripts/hunspell/isocpp.dic)に追加してください。
 
-### Miscellaneous
+### その他
 
-To avoid line-ending issues, please set `autocrlf = input` and `whitespace = cr-at-eol` in your git configuration.
+改行問題を防ぐため、Git設定で `autocrlf = input` および `whitespace = cr-at-eol` を設定してください。
