@@ -1,7 +1,7 @@
 ## Contributing to the C++ Core Guidelines
 
->"Within C++ is a smaller, simpler, safer language struggling to get out." 
->-- <cite>Bjarne Stroustrup</cite>
+>「C++の中には、より小さく、より単純で、より安全な言語が、外に出ようと必死に奮闘している。」
+>-- <cite>ビャルネ・ストラウストラップ</cite>
 
 C++コアガイドラインは、C++言語そのものと同様に、ビャルネ・ストロストラップが主導する共同作業の成果である。これらは複数の組織にわたり、多くの
 人年を費やした議論と設計の結果として生まれた。その設計は汎用性と広範な採用を促すが、
